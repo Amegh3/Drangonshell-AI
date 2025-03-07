@@ -1,0 +1,262 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Courier New', monospace;
+    color: #0f0;
+    background: rgb(0, 0, 0);
+    overflow: hidden;
+}
+
+/* Background */
+canvas#bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+/* Profile */
+.profile-img {
+    width: 110px;
+    border-radius: 70;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+
+
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Courier New', monospace;
+    color: #0f0;
+    background: rgb(0, 0, 0);
+    overflow: hidden;
+}
+
+
+
+/* Centered Social Icons */
+.social-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+/* Social Icon Styling */
+.social-icon {
+    font-size: 50px;
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
+    display: inline-block;
+    position: relative;
+}
+
+/* Hover Effect - Smooth Glow */
+.social-icon:hover {
+    transform: scale(1.2);
+    text-shadow: 0 0 25px rgb(255, 0, 0), 0 0 50px rgb(255, 0, 0);
+}
+
+/* Click Effect - Animated Pulse */
+@keyframes click-glow {
+    0% { text-shadow: 0 0 10px rgb(0, 0, 0); }
+    50% { text-shadow: 0 0 20px rgb(0, 0, 0), 0 0 40px rgb(0, 0, 0); transform: scale(1.3); }
+    100% { text-shadow: 0 0 10px rgb(0, 0, 0); transform: scale(1); }
+}
+
+.clicked {
+    animation: click-glow 0.3s ease-in-out;
+}
+
+/* Individual Brand Colors */
+.email { color: #ff4d4d; }      /* Red */
+.github { color: #ffffff; }     /* White */
+.linkedin { color: #0077b5; }   /* Blue */
+.twitter { color: #1da1f2; }    /* Light Blue */
+.instagram { color: #e1306c; }  /* Pink */
+
+
+.terminal {
+    background: rgba(0, 0, 0, 0.95);
+    padding: 15px;
+    border: 2px solid rgba(0, 255, 0, 0.8);
+    border-radius: 8px;
+    width: 100%;
+    max-width: 500px;
+    margin:0.7cm auto 0 auto; /* Moves it 1cm down */
+    box-shadow: 0 0 15px rgba(0, 230, 0, 0.349);
+    font-family: 'Courier New', monospace;
+    overflow: hidden;
+}
+
+
+/* Terminal Header */
+.terminal-header {
+    display: flex;
+    align-items: center;
+    background: #111;
+    padding: 8px;
+    border-bottom: 2px solid rgba(0, 255, 0, 0.5);
+    position: relative;
+    color: #0f0;
+    font-weight: bold;
+}
+
+/* Terminal Dots */
+.terminal-header .dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.red { background: #ff605c; }
+.yellow { background: #ffbd44; }
+.green { background: #00ca4e; }
+
+/* Terminal Title with Blinking Icon */
+.terminal-title {
+    margin-left: auto;
+    font-size: 14px;
+}
+
+.terminal-title i {
+    margin-right: 5px;
+    animation: blink 1s infinite alternate;
+}
+
+/* Blinking Effect */
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0.3; }
+    100% { opacity: 1; }
+}
+
+/* Terminal Body */
+.terminal-body {
+    height: 140px;
+    overflow-y: auto;
+    padding: 10px;
+    font-size: 0.9em;
+    color: #0f0;
+    font-family: 'Courier New', monospace;
+}
+
+/* Typing Cursor Effect */
+.typing {
+    display: inline-block;
+    border-right: 2px solid #0f0;
+    padding-right: 2px;
+    animation: typing-blink 0.7s infinite;
+}
+
+@keyframes typing-blink {
+    50% { border-color: transparent; }
+}
+
+/* Terminal Input */
+input#commandInput {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background: rgb(0, 0, 0);
+    color: rgb(145, 255, 1);
+    font-family: 'Courier New', monospace;
+    border-top: 2px solid rgba(0, 255, 0, 0.5);
+    box-shadow: 0px -2px 10px rgba(0, 255, 0, 0.2);
+}
+
+/* Input Focus Glow Effect */
+input#commandInput:focus {
+    box-shadow: 0px -2px 15px rgba(0, 0, 0, 0.555);
+}
+
+.profile {
+    margin-top: -7x; /* Moves content slightly up */
+    text-align: center;
+}
+.profile {
+    margin-top: -5px; /* Moves content up slightly */
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 0.95rem; /* Keeps text compact */
+    font-weight: 500;
+    line-height: 1.1; /* Tight spacing */
+    margin: 2px 0; /* Minimal gap */
+    display: inline-block; /* Ensures text stays aligned */
+}
+.profile {
+    margin-top: -5px; /* Moves content up slightly */
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 1rem; /* Keeps text compact */
+    font-weight: 500;
+    line-height: 1.3; /* Keeps spacing balanced */
+    margin: 0; /* Removes extra space */
+}
+.headline {
+    font-size: -1.2em; /* Keeps text readable */
+    font-weight: 300;
+    color: #15ff00; /* Cyber teal for a fresh look */
+    max-width: 600px; /* Prevents text from stretching */
+    margin: 0 auto; /* Centers perfectly */
+    line-height: 1.5; /* Balanced line spacing */
+    display: inline-block; /* Ensures even alignment */
+    text-shadow: 0 0 5px rgb(255, 0, 0); /* Soft neon glow */
+}
+#matrixEffect {
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+    white-space: pre;
+    color: #0f0;
+    width: 100%; /* Ensure full width */
+    display: block;
+    overflow-x: auto; /* Allow scrolling if needed */
+    text-align: left; /* Align text properly */
+    margin-top: -2cm; /* Moves the effect 2cm up */
+}
+
+.footer {
+    position: relative; /* Ensures it stays at the bottom */
+    width: 100%;
+    padding: 100px 0;
+    background-color: rgba(0, 0, 0, 0.8); /* Matches terminal theme */
+    color: rgba(255, 255, 255, 0.6); /* Light grey text */
+    font-size: 14px;
+    text-align: center;
+}
+
+#terminal {
+    background: black;
+    color: green;
+    font-family: monospace;
+    padding: 10px;
+    height: 400px;
+    overflow-y: auto;
+}
+#input {
+    background: black;
+    color: green;
+    border: none;
+    width: 100%;
+    outline: none;
+}
+#chatOutput {
+    background: black;
+    color: #00ff00;
+    font-family: "Courier New", monospace;
+    font-size: 14px;
+    padding: 15px;
+    height: 200px;
+    overflow-y: auto;
+    border: 1px solid #000000b2;
+    white-space: pre-wrap;
+}
