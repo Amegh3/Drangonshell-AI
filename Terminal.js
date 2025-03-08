@@ -1,5 +1,5 @@
-const responses = {
-    // Basic Greetings
+
+ const responses = {
     "Hi": "Hello! How can I assist you today?",
     "hi": "Hello! How can I assist you today?",
     "Hello": "Hey there! What would you like to know?",
@@ -11,48 +11,48 @@ const responses = {
     "osint": "Open Source Intelligence (OSINT) involves gathering publicly available information for cybersecurity or investigative purposes.",
     "digital forensics": "Digital forensics is the investigation of cybercrimes through the analysis of digital evidence.",
     "career paths": "Cybersecurity career paths include roles like Penetration Tester, Security Analyst, Incident Responder, and Red Team Specialist.",
-    
-        // Time-based greetings
-        "morning": "Good morning!",
-        "gm": "Good morning!",
-        "good morning": "Good morning!",
-        "afternoon": "Good afternoon!",
-        "good afternoon": "Good afternoon!",
-        "evening": "Good evening!",
-        "good evening": "Good evening!",
-        "night": "Good night!",
-        "good night": "Good night, sleep well!",
-        "gn": "Good night!",
-    
-        // Slang & unique greetings
-        "ahoy": "Ahoy!",
-        "hiya": "Hiya!",
-        "yo bro": "Yo bro!",
-        "hello mate": "Hello mate!",
-        "hey dude": "Hey dude!",
-        "greetings": "Greetings!",
-        "hi friend": "Hi friend!",
-        "salutations": "Salutations!",
-        "hola": "Hola!",
-        "bonjour": "Bonjour!",
-        "namaste": "Namaste!",
-        "peace": "Peace!",
-        "wassup bro": "What’s up bro!",
-        "sup dude": "Hey dude!",
-        "how to report cybercrime": "Report cybercrimes in India at the official portal: https://cybercrime.gov.in or call the cybercrime helpline 1930.",
-            "my account hacked": "Change your passwords, enable multi-factor authentication (MFA), and report the issue to the platform. If money is involved, call 1930. Also, send an account recovery request to the platform's support email (e.g., security@facebook.com for Facebook, support@instagram.com for Instagram)."
-            "phishing attack": "If you've shared sensitive info, change passwords immediately. Report phishing emails to report.phishing@cert-in.org.in.",
-            "identity theft": "Notify your bank, file a complaint at https://cybercrime.gov.in, and monitor financial transactions closely.",
-            "ransomware attack": "Disconnect from the internet, do not pay the ransom, and report the incident to CERT-In (www.cert-in.org.in).",
-            "data breach": "Check if your data is leaked using Have I Been Pwned. Reset passwords and enable two-factor authentication.",
-            "online fraud": "Call the cyber fraud helpline **1930** or file a complaint on **https://cybercrime.gov.in**. Act fast to freeze transactions.",
-            "malware infection": "Run a full scan using a trusted antivirus. Update your security patches and avoid clicking unknown links.",
-            "social media hacked": "Reset your password, enable 2FA, log out of all devices, and report to the platform's support.",
-            "financial fraud": "Immediately call your bank and cyber helpline **1930** to stop fraudulent transactions.",
-            "atm fraud": "Block your card by calling your bank’s helpline and file a complaint at **https://cybercrime.gov.in**.",
-            "uPI fraud": "Report UPI fraud to your bank and call **1930** to attempt reversing the transaction.",
-    
-        
+
+    // Time-based greetings
+    "morning": "Good morning!",
+    "gm": "Good morning!",
+    "good morning": "Good morning!",
+    "afternoon": "Good afternoon!",
+    "good afternoon": "Good afternoon!",
+    "evening": "Good evening!",
+    "good evening": "Good evening!",
+    "night": "Good night!",
+    "good night": "Good night, sleep well!",
+    "gn": "Good night!",
+
+    // Slang & unique greetings
+    "ahoy": "Ahoy!",
+    "hiya": "Hiya!",
+    "yo bro": "Yo bro!",
+    "hello mate": "Hello mate!",
+    "hey dude": "Hey dude!",
+    "greetings": "Greetings!",
+    "hi friend": "Hi friend!",
+    "salutations": "Salutations!",
+    "hola": "Hola!",
+    "bonjour": "Bonjour!",
+    "namaste": "Namaste!",
+    "peace": "Peace!",
+    "wassup bro": "What’s up bro!",
+    "sup dude": "Hey dude!",
+
+    // Cybercrime reporting
+    "how to report cybercrime": "Report cybercrimes in India at https://cybercrime.gov.in or call the cybercrime helpline 1930.",
+    "my account hacked": "Change your passwords, enable multi-factor authentication (MFA), and report the issue to the platform. If money is involved, call 1930.",
+    "phishing attack": "If you've shared sensitive info, change passwords immediately. Report phishing emails to report.phishing@cert-in.org.in.",
+    "identity theft": "Notify your bank, file a complaint at https://cybercrime.gov.in, and monitor financial transactions closely.",
+    "ransomware attack": "Disconnect from the internet, do not pay the ransom, and report the incident to CERT-In (www.cert-in.org.in).",
+    "data breach": "Check if your data is leaked using Have I Been Pwned. Reset passwords and enable two-factor authentication.",
+    "online fraud": "Call the cyber fraud helpline 1930 or file a complaint on https://cybercrime.gov.in.",
+    "malware infection": "Run a full scan using a trusted antivirus. Update security patches and avoid clicking unknown links.",
+    "social media hacked": "Reset your password, enable 2FA, log out of all devices, and report to the platform's support.",
+    "financial fraud": "Immediately call your bank and cyber helpline 1930 to stop fraudulent transactions.",
+    "atm fraud": "Block your card by calling your bank’s helpline and file a complaint at https://cybercrime.gov.in.",
+    "upi fraud": "Report UPI fraud to your bank and call 1930 to attempt reversing the transaction.",
 
     // Personal Information
     "Who are you": "I'm an AI chatbot designed to answer your questions about Amegh!",
@@ -70,15 +70,14 @@ const responses = {
     // Experience & Work
     "Experience": "Amegh is a Security Analyst with hands-on experience in VAPT, network security, and cybersecurity research.",
     "experience": "Amegh is a Security Analyst with hands-on experience in VAPT, network security, and cybersecurity research.",
-    "freelance": "Amegh offers professional cybersecurity services, including penetration testing, vulnerability assessments, and security consulting. Drop a mail about your quriess on ttariyahgema@gmail.com",
+    "freelance": "Amegh offers professional cybersecurity services, including penetration testing, vulnerability assessments, and security consulting. Drop a mail at ttariyahgema@gmail.com.",
     "work": "Amegh specializes in network security, ethical hacking, and vulnerability assessments.",
     "Projects": "Amegh has completed over 20+ cybersecurity projects, including CTF challenges, web security assessments, and malware analysis.",
-    "projects": "Amegh has completed over 20+ cybersecurity projects, including CTF challenges, web security assessments, and malware analysis.visit his github account ",
-    "who is Amegh": "Amegh is my creator! A skilled Security Analyst and Cybersecurity Enthusiast with expertise in VAPT, Ethical Hacking, and Threat Intelligence.",
-    "who created you": "I was created by Amegh A .",
+    "projects": "Amegh has completed over 20+ cybersecurity projects, including CTF challenges, web security assessments, and malware analysis. Visit his GitHub account.",
+    "who created you": "I was created by Amegh A.",
     "who made this": "This system was developed by Amegh, a cybersecurity professional with deep knowledge in penetration testing and cyber defense.",
     "amegh": "Amegh is my creator!",
-    "amegh's fav dish": "kunjikayii butter roast with kunji mukku stick grill with cold b+ve blood ",
+    "amegh's fav dish": "Kunjikayii butter roast with kunji mukku stick grill with cold B+ve blood.",
 
     // Certifications & Education
     "certificates": "Here are some of Amegh's certifications:\n- IBM Cybersecurity Advanced certificates\n- Certified Ethical Hacker (CEH)v13\n- Certified Security Tester\n- Advanced SOC Analyst \n- and more",
@@ -88,41 +87,12 @@ const responses = {
     // Technical Skills
     "Skills": "Amegh specializes in:\n- Penetration Testing\n- Network Security\n- Ethical Hacking\n- SOC \n- Digital Forensics\n- Web Security\n- Cloud Security",
     "skills": "Amegh specializes in:\n- Penetration Testing\n- Network Security\n- Ethical Hacking\n- SOC\n- Digital Forensics\n- Web Security\n- Cloud Security",
-   
 
-// Fun Interactions
+    // Fun Interactions
     "Do you like hacking": "As an AI, I don't hack, but I can provide knowledge about ethical hacking!",
-    "do you like hacking": "As an AI, I don't hack, but I can provide knowledge about ethical hacking!",
-
-    // Fun Cybersecurity Facts
-    "Tell me a fact": "Fact: The first computer virus, 'Creeper', was created in the early 1970s!",
-    "tell me a fact": "Fact: The first computer virus, 'Creeper', was created in the early 1970s!",
-    "Another fact": "Fact: The term 'hacker' originally meant someone skilled at programming, not a cybercriminal!",
-    "another fact": "Fact: The term 'hacker' originally meant someone skilled at programming, not a cybercriminal!",
-    "More facts": "Fact: In 2010, the Stuxnet worm was discovered—it was the first known cyber weapon designed to disrupt industrial systems!",
-    "more facts": "Fact: In 2010, the Stuxnet worm was discovered—it was the first known cyber weapon designed to disrupt industrial systems!",
-    
-    // Fun Commands
-    "Hack me": "Nice try! But ethical hacking is all about securing systems, not breaking into them! 😏",
-    "hack me": "Nice try! But ethical hacking is all about securing systems, not breaking into them! 😏",
-    "Self-destruct": "Initiating self-destruction in 3...2...1... Just kidding! 😆 I'm here to assist, not explode!",
-    "self-destruct": "Initiating self-destruction in 3...2...1... Just kidding! 😆 I'm here to assist, not explode!",
-    "What’s your favorite cybersecurity term?": "I’d say ‘Zero Trust’! Because in cybersecurity, trust should always be verified! 🔒",
-    "what’s your favorite cybersecurity term?": "I’d say ‘Zero Trust’! Because in cybersecurity, trust should always be verified! 🔒",
-    "Are you a bot?": "Yes! But a cybersecurity-aware bot. Ask me about ethical hacking, VAPT, or security tips!",
-    "are you a bot?": "Yes! But a cybersecurity-aware bot. Ask me about ethical hacking, VAPT, or security tips!",
-    
-    
-    // Contact
-    "Contact": "You can reach Amegh via LinkedIn, GitHub, or email at hgemattariya@gmail.com.",
-    "contact": "You can reach Amegh via LinkedIn, GitHub, or email at hgemattariya@gmail.com.",
-    
-    // Exit
-    "Bye": "Goodbye! Have a great day!",
-    "bye": "Goodbye! Have a great day!",
-    "Exit": "Closing the terminal session. See you next time!",
-    "exit": "Closing the terminal session. See you next time!"
+    "do you like hacking": "As an AI, I don't hack, but I can provide knowledge about ethical hacking!"
 };
+
 
 
 const alternativeResponses = [
