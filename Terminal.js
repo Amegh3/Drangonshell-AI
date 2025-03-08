@@ -183,7 +183,7 @@ document.getElementById("commandInput").addEventListener("keypress", function (e
         let suggestedCommands = [];
   
   if (userInput.includes("certif") || userInput.includes("cerfic") || userInput.includes("certi")) {
-    response = "Did you mean 'certificates'?";
+    response = "certificates";
     suggestedCommands = ["certificates"];
     lastContext = "certificates";
 } else if (userInput.includes("skill")) {
