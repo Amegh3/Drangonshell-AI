@@ -1,5 +1,65 @@
 
 const responses = {
+// 🌟 Basic Greetings
+    "hi": ["Hello! How can I assist you today?", "Hi there! Need any help?", "Hey! How's your day going?"],
+    "hello": ["Hey there! What would you like to know?", "Hello! How can I help?", "Hi! What’s up?"],
+    "hey": ["Hey! Need any help?", "Hey there!", "Hey! What's on your mind?"],
+    "how are you": ["I'm just a bot, but I'm always here to assist you!", "I'm doing great! Thanks for asking.", "I'm just a digital assistant, but I'm here to help!"],
+
+    // 🔎 Cybersecurity Topics
+    "osint": [
+        "OSINT (Open Source Intelligence) is about collecting publicly available data for investigations and security purposes.",
+        "OSINT helps gather information legally from open sources like social media, public records, and websites.",
+        "OSINT is widely used in cybersecurity, ethical hacking, and law enforcement for intelligence gathering."
+    ],
+    "digital forensics": [
+        "Digital forensics is about investigating cybercrimes using electronic evidence from devices.",
+        "It involves analyzing hard drives, network logs, and other digital footprints to find cybercriminal activities.",
+        "Forensic experts recover lost or hidden data to track cyber threats and criminal activities."
+    ],
+    "career paths": [
+        "Cybersecurity careers include roles like Penetration Tester, Security Analyst, and Threat Hunter.",
+        "If you're interested in hacking, consider becoming a Red Team Specialist or Ethical Hacker.",
+        "Cybersecurity has multiple fields—incident response, SOC analyst, malware analysis, and more!"
+    ],
+
+    // 🆘 Cybercrime Help
+    "report fraud": [
+        "If you've encountered online fraud, report it to the authorities immediately.",
+        "Online fraud should be reported to the local cybercrime unit or consumer protection agency.",
+        "Stay alert! If you suspect fraud, secure your accounts and report suspicious activity."
+    ],
+    "phishing attack": [
+        "Phishing attacks trick users into giving sensitive data. Always verify before clicking on links!",
+        "If you suspect a phishing email, don’t click any links. Report it to your IT security team.",
+        "Phishing emails often look official but have small errors. Always check sender addresses carefully."
+    ],
+    "report cybercrime": [
+        "Report cybercrimes in India at the official portal: https://cybercrime.gov.in or call the cybercrime helpline 1930.",
+        "For cybercrime complaints, visit https://cybercrime.gov.in and submit a report with details.",
+        "Cybercrime victims should file complaints at the local cyber cell or the national cybercrime helpline."
+    ],
+    "my account hacked": [
+        "Change your passwords, enable multi-factor authentication (MFA), and report the issue to the platform.",
+        "If money is involved, call 1930 immediately to prevent further damage."
+    ],
+
+    // 🔥 Fun & Unique Greetings
+    "ahoy": ["Ahoy, matey!", "Ahoy! Ready to sail into knowledge?", "Ahoy! How can I assist you today?"],
+    "hiya": ["Hiya! What's up?", "Hey there! How can I help?", "Hiya! Hope you’re doing great."],
+    "yo bro": ["Yo bro! What's good?", "Yo! Need anything?", "Yo bro! How’s life?"],
+    "hello mate": ["Hello mate! How’s your day?", "Hey mate! Need some help?", "Hello mate! What’s new?"],
+    "namaste": ["Namaste! How can I assist you?", "Namaste! Hope you're having a peaceful day.", "Namaste! What’s on your mind?"],
+    "peace": ["Peace! Stay secure online.", "Peace, friend!", "Wishing you peace and positivity!"],
+
+    // ℹ️ Personal Information
+    "who are you": ["I'm an AI chatbot designed to answer your questions about Amegh!", "I'm Amegh's chatbot assistant.", "I'm a bot that helps you learn more about cybersecurity and Amegh."],
+    "who is amegh": ["Amegh is a Security Analyst and Cybersecurity Enthusiast. Want to know more? Type 'Projects', 'Skills', 'Education', or 'Experience'.", "Amegh is a cybersecurity expert. Feel free to ask about his work!"],
+    
+    // ✅ Handle General Responses
+    "ok": ["Alright!", "Got it!", "Cool!"],
+    "yes": ["Great!", "Awesome!", "Sounds good!"],
+    "no": ["Alright, let me know if you need anything!", "No worries!", "Okay, let me know how I can assist.",
     // Basic Greetings
     "Hi": "Hello! How can I assist you today?",
     "hi": "Hello! How can I assist you today?",
