@@ -12,15 +12,7 @@ const responses = {
     "osint": "Open Source Intelligence (OSINT) involves gathering publicly available information for cybersecurity or investigative purposes.",
     "digital forensics": "Digital forensics is the investigation of cybercrimes through the analysis of digital evidence.",
     "career paths": "Cybersecurity career paths include roles like Penetration Tester, Security Analyst, Incident Responder, and Red Team Specialist.",
-        // Standard greetings
-        "hi": "Hello!",
-        "hello": "Hey!",
-        "hey": "Hey there!",
-        "yo": "Yo!",
-        "hi hi": "Hi hi!",
-        "hey hey": "Hey hey!",
-        "hello hello": "Hello hello!",
-    
+        
         // Shortened & informal variations
         "hii": "Hi!",
         "hiii": "Hey there!",
