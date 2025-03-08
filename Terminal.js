@@ -72,30 +72,8 @@ const responses = {
     "osint": "Open Source Intelligence (OSINT) involves gathering publicly available information for cybersecurity or investigative purposes.",
     "digital forensics": "Digital forensics is the investigation of cybercrimes through the analysis of digital evidence.",
     "career paths": "Cybersecurity career paths include roles like Penetration Tester, Security Analyst, Incident Responder, and Red Team Specialist.",
-        // Standard greetings
-        "hi": "Hello!",
-        "hello": "Hey!",
-        "hey": "Hey there!",
-        "yo": "Yo!",
-        "hi hi": "Hi hi!",
-        "hey hey": "Hey hey!",
-        "hello hello": "Hello hello!",
-    
-        // Shortened & informal variations
-        "hii": "Hi!",
-        "hiii": "Hey there!",
-        "hlo": "Hello!",
-        "helo": "Hello!",
-        "heyy": "Hey!",
-        "heyyy": "Hey hey!",
-        "yo yo": "Yo yo!",
-        "hy": "Hey!",
-        "hyy": "Hey!",
-        "lo": "Hello!",
-        "sup": "Hey! What’s up?",
-        "wazzup": "What’s up!",
-        "wassup": "What’s up!",
-    
+        
+
         // Time-based greetings
         "morning": "Good morning!",
         "gm": "Good morning!",
@@ -134,7 +112,7 @@ const responses = {
             "social media hacked": "Reset your password, enable 2FA, log out of all devices, and report to the platform's support.",
             "financial fraud": "Immediately call your bank and cyber helpline **1930** to stop fraudulent transactions.",
             "atm fraud": "Block your card by calling your bank’s helpline and file a complaint at **https://cybercrime.gov.in**.",
-            "uPI fraud": "Report UPI fraud to your bank and call **1930** to attempt reversing the transaction.",
+            "report UPI fraud": "Report UPI fraud to your bank and call **1930** to attempt reversing the transaction.",
     
         
 
@@ -165,9 +143,7 @@ const responses = {
     "amegh's fav dish": "kunjikayii butter roast with kunji mukku stick grill with cold b+ve blood ",
 
     // Certifications & Education
-    "Certificates": "Amegh holds industry-recognized cybersecurity certifications. Would you like a list?",
-    "certificates": "Amegh holds industry-recognized cybersecurity certifications. Would you like a list?",
-    "Yes_certificates": "Here are some of Amegh's certifications:\n- IBM Cybersecurity Advanced certificates\n- Certified Ethical Hacker (CEH)v13\n- Certified Security Tester\n- Advanced SOC Analyst \n- and more",
+    "certificates": "Here are some of Amegh's certifications:\n- IBM Cybersecurity Advanced certificates\n- Certified Ethical Hacker (CEH)v13\n- Certified Security Tester\n- Advanced SOC Analyst \n- and more",
     "Education": "Amegh has a degree in Cybersecurity along with multiple industry certifications.",
     "education": "Amegh has a degree in Cybersecurity along with multiple industry certifications.",
 
@@ -214,13 +190,12 @@ const responses = {
 const alternativeResponses = [
     "I didn't get that. Try asking about Projects, Experience, or Cybercrime Help!",
     "Hmm, not sure about that. Ask about Certifications, Contact, or Education.",
-    "I’m not sure. You can ask: Report Cybercrime, Online Fraud, or Financial Fraud.",
+    "I’m not sure. You can ask: How to Report Cybercrime, Online Fraud, or Financial Fraud.",
     "That doesn’t seem right. Try asking about Amegh’s Skills, Certifications, or Penetration Testing.",
     "I didn’t understand. Maybe try: Report UPI Fraud, Online Scams, or Amegh's Skills.",
     "Not sure what you mean. Explore Amegh's Experience, Skills, or Contact Info.",
     "Hmm... I can't answer that. Ask about Reporting Cybercrime, Securing Accounts, or Hacked Accounts.",
-    "I’m unsure. Try: Certifications, Ethical Hacking, or Cybercrime Assistance.",
-    "That’s unclear. You can ask: Hacked Account, Online Fraud, or Amegh’s Projects.",
+  "That’s unclear. You can ask: Hacked Account, Online Fraud, or Amegh’s Projects.",
     "I don’t have that info. Ask about Certifications, Education, or Freelance Security Services.",
 ];
 
@@ -246,7 +221,6 @@ document.getElementById("commandInput").addEventListener("keypress", function (e
         let suggestedCommands = [];
   // Handling typos and variations
   if (userInput.includes("certif") || userInput.includes("cerfic") || userInput.includes("certi")) {
-    response = "Did you mean 'certificates'?";
     suggestedCommands = ["certificates"];
     lastContext = "certificates";
 } else if (userInput.includes("skill")) {
