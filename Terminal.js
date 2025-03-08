@@ -40,7 +40,7 @@ const responses = {
         "wassup bro": "What’s up bro!",
         "sup dude": "Hey dude!",
         "how to report cybercrime": "Report cybercrimes in India at the official portal: https://cybercrime.gov.in or call the cybercrime helpline 1930.",
-            "my account hacked": "Change your passwords, enable multi-factor authentication (MFA), and report the issue to the platform. If money is involved, call 1930.",
+            "my account hacked": "Change your passwords, enable multi-factor authentication (MFA), and report the issue to the platform. If money is involved, call 1930. Also, send an account recovery request to the platform's support email (e.g., security@facebook.com for Facebook, support@instagram.com for Instagram)."
             "phishing attack": "If you've shared sensitive info, change passwords immediately. Report phishing emails to report.phishing@cert-in.org.in.",
             "identity theft": "Notify your bank, file a complaint at https://cybercrime.gov.in, and monitor financial transactions closely.",
             "ransomware attack": "Disconnect from the internet, do not pay the ransom, and report the incident to CERT-In (www.cert-in.org.in).",
