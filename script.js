@@ -15,7 +15,7 @@ scene.add(hoodie);
 // Face (Hidden in Shadow)
 const faceGeometry = new THREE.SphereGeometry(1, 16, 16);
 const faceMaterial = new THREE.MeshBasicMaterial({ color: 0x111111 });
-const face = new THREE.Mesh(faceGeometry, faceMaterial);
+const face = new THREE.Mesh(faceGeometry, faceMaterial); 
 face.position.y = 1;
 scene.add(face);
 
