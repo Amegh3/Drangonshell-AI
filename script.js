@@ -63,10 +63,13 @@ document.addEventListener("DOMContentLoaded", function() {
     const loadingText = document.getElementById("loadingText");
 
     const messages = [
-        "<i class='fas fa-power-off'></i> <b>DragonShell AI Active.</b>",
-        "Ask about <b>Amegh</b>, security topics, or cybercrime help."
-    ];
-
+        "<i class='fas fa-power-off'></i> <b>System Online</b>",
+        "Welcome to DragonShell AI v2.1.0",
+        "🔗 Join our community on Telegram: <a href='https://t.me/+fP7yovPDEz84ZWI1' target='_blank'>DragonShell AI Group</a>"
+        
+        ];
+        
+    
     function generateRandomMatrix() {
         const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@#$%^&*()";
         let text = "";
