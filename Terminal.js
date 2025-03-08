@@ -105,9 +105,7 @@ const responses = {
     "amegh's fav dish": "kunjikayii butter roast with kunji mukku stick grill with cold b+ve blood ",
 
     // Certifications & Education
-    "Certificates": "Amegh holds industry-recognized cybersecurity certifications. Would you like a list?",
-    "certificates": "Amegh holds industry-recognized cybersecurity certifications. Would you like a list?",
-    "Yes_certificates": "Here are some of Amegh's certifications:\n- IBM Cybersecurity Advanced certificates\n- Certified Ethical Hacker (CEH)v13\n- Certified Security Tester\n- Advanced SOC Analyst \n- and more",
+    "certificates": "Here are some of Amegh's certifications:\n- IBM Cybersecurity Advanced certificates\n- Certified Ethical Hacker (CEH)v13\n- Certified Security Tester\n- Advanced SOC Analyst \n- and more",
     "Education": "Amegh has a degree in Cybersecurity along with multiple industry certifications.",
     "education": "Amegh has a degree in Cybersecurity along with multiple industry certifications.",
 
