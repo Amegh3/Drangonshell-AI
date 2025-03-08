@@ -94,7 +94,7 @@ const responses = {
     // Experience & Work
     "Experience": "Amegh is a Security Analyst with hands-on experience in VAPT, network security, and cybersecurity research.",
     "experience": "Amegh is a Security Analyst with hands-on experience in VAPT, network security, and cybersecurity research.",
-    "Freelance": "Amegh offers professional cybersecurity services, including penetration testing, vulnerability assessments, and security consulting. Drop a mail about your quriess on ttariyahgema@gmail.com",
+    "freelance": "Amegh offers professional cybersecurity services, including penetration testing, vulnerability assessments, and security consulting. Drop a mail about your quriess on ttariyahgema@gmail.com",
     "work": "Amegh specializes in network security, ethical hacking, and vulnerability assessments.",
     "Projects": "Amegh has completed over 20+ cybersecurity projects, including CTF challenges, web security assessments, and malware analysis.",
     "projects": "Amegh has completed over 20+ cybersecurity projects, including CTF challenges, web security assessments, and malware analysis.visit his github account ",
@@ -102,6 +102,7 @@ const responses = {
     "who created you": "I was created by Amegh A .",
     "who made this": "This system was developed by Amegh, a cybersecurity professional with deep knowledge in penetration testing and cyber defense.",
     "amegh": "Amegh is my creator!",
+    "amegh's fav dish": "kunjikayii butter roast with kunji mukku stick grill with cold b+ve blood ",
 
     // Certifications & Education
     "Certificates": "Amegh holds industry-recognized cybersecurity certifications. Would you like a list?",
@@ -113,58 +114,7 @@ const responses = {
     // Technical Skills
     "Skills": "Amegh specializes in:\n- Penetration Testing\n- Network Security\n- Ethical Hacking\n- SOC \n- Digital Forensics\n- Web Security\n- Cloud Security",
     "skills": "Amegh specializes in:\n- Penetration Testing\n- Network Security\n- Ethical Hacking\n- SOC\n- Digital Forensics\n- Web Security\n- Cloud Security",
-   // cybersecurity topics
-
-"penetration testing": "penetration testing, or ethical hacking, is the practice of testing a system for vulnerabilities before malicious hackers can exploit them.",
-"ethical hacking": "ethical hacking involves legally breaking into computers to test defenses and improve security.",
-"vapt": "vulnerability assessment and penetration testing (VAPT) is a process used to identify and fix security vulnerabilities in a system.",
-"osint": "open source intelligence (OSINT) involves gathering publicly available information for cybersecurity or investigative purposes.",
-"cyber threats": "cyber threats include attacks such as malware, phishing, ransomware, and data breaches that target systems and networks.",
-"linux security": "linux security involves implementing measures like firewalls, SELinux, and access control to protect Linux-based systems.",
-"red teaming": "red teaming is an advanced form of security testing where ethical hackers simulate real-world attacks to improve defenses.",
-"network security": "network security protects networks from unauthorized access, attacks, and data breaches.",
-"social engineering": "social engineering is a manipulation technique that exploits human psychology to gain access to sensitive information.",
-"digital forensics": "digital forensics is the investigation of cybercrimes through the analysis of digital evidence.",
-"bug bounties": "bug bounty programs reward ethical hackers for finding and reporting security vulnerabilities in systems and applications.",
-"reverse engineering": "reverse engineering is the process of analyzing software, malware, or hardware to understand its inner workings.",
-"cybersecurity tools": "cybersecurity tools include scanners, SIEM solutions, IDS/IPS, firewalls, and malware analysis platforms.",
-"threat intelligence": "threat intelligence involves gathering, analyzing, and sharing information about current and emerging cyber threats.",
-"malware analysis": "malware analysis is the process of examining malicious software to understand its behavior and impact.",
-"cybersecurity roadmaps": "cybersecurity roadmaps outline the learning paths, skills, and certifications needed to build a career in cybersecurity.",
-"industry certifications": "cybersecurity certifications like CEH, OSCP, CISSP, and CISM validate expertise in various security domains.",
-"career paths": "cybersecurity career paths include penetration tester, SOC analyst, security consultant, and digital forensic investigator.",
-"exploit development": "exploit development involves creating and testing exploits to assess vulnerabilities in software and systems.",
-"web security": "web security involves securing websites, web applications, and online services from cyber threats.",
-"cloud security": "cloud security ensures the protection of data, applications, and services hosted in cloud environments.",
-"dark web": "the dark web is a part of the internet that requires special software to access and is often associated with anonymity.",
-"cyber crime investigations": "cyber crime investigations involve tracking digital evidence to analyze and prevent cybercriminal activities.",
-"privacy enhancements": "privacy enhancements include encryption, VPNs, secure browsers, and privacy-focused security practices.",
-"blue teaming": "blue teaming focuses on defending networks against cyber threats by monitoring, detecting, and responding to attacks.",
-"cyber defense strategies": "cyber defense strategies include threat detection, response planning, and security hardening techniques.",
-"zero-day vulnerabilities": "zero-day vulnerabilities are security flaws that are unknown to the vendor and have no patches available.",
-"siem (security information and event management)": "SIEM tools collect, analyze, and correlate security events to detect and respond to threats.",
-"ids/ips (intrusion detection & prevention systems)": "IDS/IPS tools monitor network traffic for suspicious activity and prevent intrusions.",
-"threat hunting": "threat hunting is the proactive search for cyber threats that may have evaded existing security defenses.",
-"phishing attacks": "phishing is a cyber attack where attackers impersonate trusted entities to steal sensitive information.",
-"password cracking": "password cracking involves using tools like brute force and dictionary attacks to test password strength.",
-"cryptography techniques": "cryptography is the practice of securing communication and data through encryption techniques.",
-"data breaches": "a data breach is an incident where sensitive, protected, or confidential data is accessed or disclosed without authorization.",
-"cyber warfare": "cyber warfare involves cyber attacks conducted by nations or organizations for political or military purposes.",
-"cybersecurity frameworks": "cybersecurity frameworks like NIST and ISO provide structured guidelines for securing digital assets and networks.",
-"risk management": "cyber risk management involves identifying, assessing, and mitigating security risks within an organization.",
-"soc (security operations center) operations": "SOC teams monitor, detect, analyze, and respond to cybersecurity incidents in real time.",
-"ransomware": "ransomware is a type of malware that locks or encrypts a victim's files and demands payment for their release.",
-"ethical hacking certifications": "popular ethical hacking certifications include CEH, OSCP, GPEN, and LPT.",
-"cybersecurity laws": "cybersecurity laws govern digital security, privacy, and cybercrime regulations across various countries.",
-"iot security": "IoT security focuses on protecting internet-connected devices from cyber threats and unauthorized access.",
-"zero trust architecture": "zero trust security is a model where no one is trusted by default, and continuous verification is required for access.",
-"secure coding": "secure coding involves writing software with security best practices to prevent vulnerabilities and exploits.",
-"cyber attack techniques": "cyber attack techniques include DDoS, SQL injection, malware, phishing, and privilege escalation.",
-"mitre att&ck": "MITRE ATT&CK is a framework that categorizes tactics and techniques used in cyber attacks.",
-"incident response": "incident response is the process of managing and mitigating cybersecurity incidents in an organization.",
-"penetration testing reports": "penetration testing reports document security vulnerabilities, risk assessments, and remediation steps.",
-"cves (common vulnerabilities and exposures)": "CVEs are publicly known security vulnerabilities that are tracked and documented for mitigation.",
-"cybersecurity conferences": "cybersecurity conferences like DEF CON, Black Hat, and RSA provide insights into the latest security trends.",
+   
 
 // Fun Interactions
     "Do you like hacking": "As an AI, I don't hack, but I can provide knowledge about ethical hacking!",
@@ -200,21 +150,19 @@ const responses = {
     "exit": "Closing the terminal session. See you next time!"
 };
 
-// Alternative responses for unrecognized queries
-const alternativeResponses = [
-    "I'm not sure about that. Try asking about Projects, Skills, or Cybersecurity Trends!",
-    "Could you clarify? You can ask about Certifications, Contact, or  About Ethical Hacking.",
-    "I'm not sure about that. But you can ask about Cybercrime Reporting, Online Scams, or Data Breaches in India!",
-    "Could you clarify? You can ask about Amegh’s Certifications, Ethical Hacking, or Penetration Testing skills.",
-    "Hmm, I didn't quite get that. Maybe try: What is OSINT, How to report UPI fraud, or Best Cybersecurity Practices?",
-    "That’s an interesting question! While I don’t know, you can explore Cyber Threats, Digital Forensics, or OSINT.",
-    "I'm not sure about that. But you can ask about Reporting Cybercrime, Online Fraud, or Identity Theft.",
-    "Could you clarify? You can ask about Phishing Attacks, Ransomware, or Data Breaches.",
-    "Hmm, I didn't quite get that. Maybe try: How to Report a Hacked Account, What to Do in an Online Fraud, or Protecting Against Malware.",
-    "I might not have that answer yet. But you can ask about Financial Fraud, UPI Scams, or ATM Security Tips.",
-    
-];
 
+const alternativeResponses = [
+    "I didn't get that. Try asking about Projects, Experience, or Cybercrime Help!",
+    "Hmm, not sure about that. Ask about Certifications, Contact, or Education.",
+    "I’m not sure. You can ask: Report Cybercrime, Online Fraud, or Financial Fraud.",
+    "That doesn’t seem right. Try asking about Amegh’s Skills, Certifications, or Penetration Testing.",
+    "I didn’t understand. Maybe try: Report UPI Fraud, Online Scams, or Amegh's Skills.",
+    "Not sure what you mean. Explore Amegh's Experience, Skills, or Contact Info.",
+    "Hmm... I can't answer that. Ask about Reporting Cybercrime, Securing Accounts, or Hacked Accounts.",
+    "I’m unsure. Try: Certifications, Ethical Hacking, or Cybercrime Assistance.",
+    "That’s unclear. You can ask: Hacked Account, Online Fraud, or Amegh’s Projects.",
+    "I don’t have that info. Ask about Certifications, Education, or Freelance Security Services.",
+];
 
 
 
@@ -224,7 +172,6 @@ let lastContext = "";
 
 
 
-// Event listener for Enter key in the terminal input
 document.getElementById("commandInput").addEventListener("keypress", function (event) {
     if (event.key === "Enter") {
         let userInput = event.target.value.trim().toLowerCase();
@@ -236,7 +183,7 @@ document.getElementById("commandInput").addEventListener("keypress", function (e
 
         let response = alternativeResponses[Math.floor(Math.random() * alternativeResponses.length)];
         let suggestedCommands = [];
-  // Handling typos and variations
+  
   if (userInput.includes("certif") || userInput.includes("cerfic") || userInput.includes("certi")) {
     response = "Did you mean 'certificates'?";
     suggestedCommands = ["certificates"];
@@ -281,7 +228,7 @@ function displayMessage(text, sender, suggestions = []) {
     let chatOutput = document.getElementById("chatOutput");
     let newLine = document.createElement("div");
     newLine.className = sender;
-    newLine.innerText = `> ${text.trim()}`;  // Ensure spacing and trim unnecessary spaces
+    newLine.innerText = `> ${text.trim()}`;  
     chatOutput.appendChild(newLine);
 
     if (suggestions.length > 0) {
