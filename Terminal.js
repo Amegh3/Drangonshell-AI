@@ -13,7 +13,7 @@ const responses = {
     "digital forensics": "Digital forensics is the investigation of cybercrimes through the analysis of digital evidence.",
     "career paths": "Cybersecurity career paths include roles like Penetration Tester, Security Analyst, Incident Responder, and Red Team Specialist.",
         
-    
+        "hi": "Hello! How can I assist you today?",
         "yo yo": "Yo yo!",
         "hy": "Hey!",
         "hyy": "Hey!",
