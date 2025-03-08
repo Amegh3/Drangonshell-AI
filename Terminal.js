@@ -1,18 +1,14 @@
 
 const responses = {
     // Basic Greetings
-    "Hi": "Hello! How can I assist you today?",
+    
     "hi": "Hello! How can I assist you today?",
-    "Hello": "Hey there! What would you like to know?",
     "hello": "Hey there! What would you like to know?",
-    "Hey": "Hey! Need any help?",
     "hey": "Hey! Need any help?",
-    "How are you": "I'm just a bot, but I'm always here to assist you!",
     "how are you": "I'm just a bot, but I'm always here to assist you!",
     "osint": "Open Source Intelligence (OSINT) involves gathering publicly available information for cybersecurity or investigative purposes.",
     "digital forensics": "Digital forensics is the investigation of cybercrimes through the analysis of digital evidence.",
     "career paths": "Cybersecurity career paths include roles like Penetration Tester, Security Analyst, Incident Responder, and Red Team Specialist.",
-        
         "hi": "Hello! How can I assist you today?",
         "yo yo": "Yo yo!",
         "hy": "Hey!",
