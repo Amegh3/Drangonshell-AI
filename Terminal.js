@@ -41,7 +41,7 @@ const responses = {
         "peace": "Peace!",
         "wassup bro": "What’s up bro!",
         "sup dude": "Hey dude!",
-            "report cybercrime": "Report cybercrimes in India at the official portal: https://cybercrime.gov.in or call the cybercrime helpline 1930.",
+            "how to report cybercrime": "Report cybercrimes in India at the official portal: https://cybercrime.gov.in or call the cybercrime helpline 1930.",
             "my account hacked": "Change your passwords, enable multi-factor authentication (MFA), and report the issue to the platform. If money is involved, call 1930.",
             "phishing attack": "If you've shared sensitive info, change passwords immediately. Report phishing emails to report.phishing@cert-in.org.in.",
             "identity theft": "Notify your bank, file a complaint at https://cybercrime.gov.in, and monitor financial transactions closely.",
@@ -52,7 +52,7 @@ const responses = {
             "social media hacked": "Reset your password, enable 2FA, log out of all devices, and report to the platform's support.",
             "financial fraud": "Immediately call your bank and cyber helpline **1930** to stop fraudulent transactions.",
             "atm fraud": "Block your card by calling your bank’s helpline and file a complaint at **https://cybercrime.gov.in**.",
-            "report UPI fraud": "Report UPI fraud to your bank and call **1930** to attempt reversing the transaction.",
+            "how to report UPI fraud": "Report UPI fraud to your bank and call **1930** to attempt reversing the transaction.",
     
         
 
