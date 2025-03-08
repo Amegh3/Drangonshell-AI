@@ -1,50 +1,71 @@
+      const responses = {
+    // 🌟 Basic Greetings
+    "hi": ["Hello! How can I assist you today?", "Hi there! Need any help?", "Hey! How's your day going?"],
+    "hello": ["Hey there! What would you like to know?", "Hello! How can I help?", "Hi! What’s up?"],
+    "hey": ["Hey! Need any help?", "Hey there!", "Hey! What's on your mind?"],
+    "how are you": ["I'm just a bot, but I'm always here to assist you!", "I'm doing great! Thanks for asking.", "I'm just a digital assistant, but I'm here to help!"],
+  
+    // 🔎 Cybersecurity Topics
+    "osint": [
+        "OSINT (Open Source Intelligence) is about collecting publicly available data for investigations and security purposes.",
+        "OSINT helps gather information legally from open sources like social media, public records, and websites.",
+        "OSINT is widely used in cybersecurity, ethical hacking, and law enforcement for intelligence gathering."
+    ],
+    "digital forensics": [
+        "Digital forensics is about investigating cybercrimes using electronic evidence from devices.",
+        "It involves analyzing hard drives, network logs, and other digital footprints to find cybercriminal activities.",
+        "Forensic experts recover lost or hidden data to track cyber threats and criminal activities."
+    ],
+    "career paths": [
+        "Cybersecurity careers include roles like Penetration Tester, Security Analyst, and Threat Hunter.",
+        "If you're interested in hacking, consider becoming a Red Team Specialist or Ethical Hacker.",
+        "Cybersecurity has multiple fields—incident response, SOC analyst, malware analysis, and more!"
+    ],
 
-const responses = {
-    // Basic Greetings
-    
-    "hi": "Hello! How can I assist you today?",
-    "hello": "Hey there! What would you like to know?",
-    "hey": "Hey! Need any help?",
-    "how are you": "I'm just a bot, but I'm always here to assist you!",
-    "osint": "Open Source Intelligence (OSINT) involves gathering publicly available information for cybersecurity or investigative purposes.",
-    "digital forensics": "Digital forensics is the investigation of cybercrimes through the analysis of digital evidence.",
-    "career paths": "Cybersecurity career paths include roles like Penetration Tester, Security Analyst, Incident Responder, and Red Team Specialist.",
-        "hi": "Hello! How can I assist you today?",
-        "yo yo": "Yo yo!",
-        "hy": "Hey!",
-        "hyy": "Hey!",
-        "lo": "Hello!",
-        "sup": "Hey! What’s up?",
-        "wazzup": "What’s up!",
-        "wassup": "What’s up!",
-    
-        // Time-based greetings
-        "morning": "Good morning!",
-        "gm": "Good morning!",
-        "good morning": "Good morning!",
-        "afternoon": "Good afternoon!",
-        "good afternoon": "Good afternoon!",
-        "evening": "Good evening!",
-        "good evening": "Good evening!",
-        "night": "Good night!",
-        "good night": "Good night, sleep well!",
-        "gn": "Good night!",
-    
-        // Slang & unique greetings
-        "ahoy": "Ahoy!",
-        "hiya": "Hiya!",
-        "yo bro": "Yo bro!",
-        "hello mate": "Hello mate!",
-        "hey dude": "Hey dude!",
-        "greetings": "Greetings!",
-        "hi friend": "Hi friend!",
-        "salutations": "Salutations!",
-        "hola": "Hola!",
-        "bonjour": "Bonjour!",
-        "namaste": "Namaste!",
-        "peace": "Peace!",
-        "wassup bro": "What’s up bro!",
-        "sup dude": "Hey dude!",
+    // 🕒 Time-based Greetings
+    "morning": ["Good morning! Hope you have a great day!", "Morning! Stay productive!", "Rise and shine!"],
+    "good morning": ["Good morning! Need a coffee?", "Morning! What's your plan for today?", "Good morning! How can I assist you?"],
+    "afternoon": ["Good afternoon! Hope your day is going well.", "Good afternoon! Need any help?", "Hey! Good afternoon."],
+    "evening": ["Good evening! How was your day?", "Evening! What’s on your mind?", "Hope you’re having a relaxing evening!"],
+    "good night": ["Good night! Sleep well.", "Night! Don’t forget to dream big.", "Sweet dreams! See you tomorrow."],
+
+    // 🎭 Fun & Unique Greetings
+    "ahoy": ["Ahoy, matey!", "Ahoy! Ready to sail into knowledge?", "Ahoy! How can I assist you today?"],
+    "hiya": ["Hiya! What's up?", "Hey there! How can I help?", "Hiya! Hope you’re doing great."],
+    "yo bro": ["Yo bro! What's good?", "Yo! Need anything?", "Yo bro! How’s life?"],
+    "hello mate": ["Hello mate! How’s your day?", "Hey mate! Need some help?", "Hello mate! What’s new?"],
+    "namaste": ["Namaste! How can I assist you?", "Namaste! Hope you're having a peaceful day.", "Namaste! What’s on your mind?"],
+    "peace": ["Peace! Stay secure online.", "Peace, friend!", "Wishing you peace and positivity!"],
+
+    // 🆘 Cybercrime Help
+    "report fraud": [
+        "If you've encountered online fraud, report it to the authorities immediately.",
+        "Online fraud should be reported to the local cybercrime unit or consumer protection agency.",
+        "Stay alert! If you suspect fraud, secure your accounts and report suspicious activity."
+    ],
+    "phishing attack": [
+        "Phishing attacks trick users into giving sensitive data. Always verify before clicking on links!",
+        "If you suspect a phishing email, don’t click any links. Report it to your IT security team.",
+        "Phishing emails often look official but have small errors. Always check sender addresses carefully."
+    ]
+};
+
+// 🎲 Function to Fetch Random Reply
+function getResponse(input) {
+    input = input.toLowerCase().trim(); // Normalize input
+    if (responses[input]) {
+        let replies = responses[input];
+        return replies[Math.floor(Math.random() * replies.length)]; // Pick a random response
+    }
+    return "I'm not sure how to respond to that. Can you rephrase it?";
+}
+
+// Example Usage
+console.log(getResponse("hi"));
+console.log(getResponse("osint"));
+console.log(getResponse("good night"));
+console.log(getResponse("report fraud"));
+
             "report cybercrime": "Report cybercrimes in India at the official portal: https://cybercrime.gov.in or call the cybercrime helpline 1930.",
             "my account hacked": "Change your passwords, enable multi-factor authentication (MFA), and report the issue to the platform. If money is involved, call 1930.",
             "phishing attack": "If you've shared sensitive info, change passwords immediately. Report phishing emails to report.phishing@cert-in.org.in.",
