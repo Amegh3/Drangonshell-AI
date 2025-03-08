@@ -132,9 +132,7 @@ const alternativeResponses = [
     "That doesn’t seem right. Try asking about Amegh’s Skills, Certifications, or Penetration Testing.",
     "I didn’t understand. Maybe try: Report UPI Fraud, Online Scams, or Amegh's Skills.",
     "Not sure what you mean. Explore Amegh's Experience, Skills, or Contact Info.",
-    "Hmm... I can't answer that. Ask about Reporting Cybercrime, Securing Accounts, or Hacked Accounts.",
     "I’m unsure. Try: Certifications, Ethical Hacking, or Cybercrime Assistance.",
-    "That’s unclear. You can ask: Hacked Account, Online Fraud, or Amegh’s Projects.",
     "I don’t have that info. Ask about Certifications, Education, or Freelance Security Services.",
 ];
 
