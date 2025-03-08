@@ -25,7 +25,7 @@
 
 Dragon Shell AI responds to predefined prompts. Try asking:  
 
-- `"Who is Alika?"` → *Brief intro about Alika*  
+- `"Who is Amegh"` → *Brief intro about Alika*  
 - `"OSINT"` → *Explains Open Source Intelligence*  
 - `"Report cybercrime"` → *Guides on reporting cybercrimes*  
 - `"Freelance"` → *Shares Alika’s cybersecurity services*  
