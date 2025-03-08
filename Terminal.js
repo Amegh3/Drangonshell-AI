@@ -212,8 +212,6 @@ document.getElementById("commandInput").addEventListener("keypress", function (e
     response = responses["tell me a fact"];
 } else if (userInput.includes("joke")) {
     response = responses["tell me a joke"];
-} else if (userInput === "yes" && lastContext === "certificates") {
-    response = responses["yes_certificates"];
     lastContext = "";
 } else if (responses[userInput]) {
     response = responses[userInput];
